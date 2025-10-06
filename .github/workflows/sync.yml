@@ -29,8 +29,8 @@ jobs:
         with:
           NOTION_SECRET: ${{ secrets.NOTION_SECRET }}
           NOTION_DATABASE: https://www.notion.so/aayushchaudhary/62f073b6463849edbe41e8eb8020a70d?v=4cefd9db56624bf798e851e537307100
-          FILTER_PROP: Status
-          FILTER_VALUES: Published
+          # FILTER_PROP: Status
+          # FILTER_VALUES: Published
           CONVERT_PROP_CASE: snake
           ARTICLE_PATH: content/posts/{title}/README.md
           ASSETS_PATH: ./
